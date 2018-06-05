@@ -1,7 +1,7 @@
 /**
  * @author bgherca on 29/05/2018
  */
-/* allocations for relatively small objects occure inside TLAB */
+/* allocations for relatively small objects occur inside TLAB */
 public class SmallClass {
 
     private static final int ARRAY_SIZE = 1024;
